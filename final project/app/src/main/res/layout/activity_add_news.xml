@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewsActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="@string/header_news"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/header_news"
+            android:inputType="text"
+            android:textSize="@dimen/text_size"
+            android:id="@+id/header_news"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disc_news"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/disc_news"
+            android:textSize="@dimen/text_size"
+            android:inputType="text"
+            android:id="@+id/disc_news"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/post"
+            android:id="@+id/post_news"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
